@@ -1,0 +1,181 @@
+/* Container styles */
+.get-con {
+  top: 200px;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+/* rec 1 */
+.rec-1 {
+  position: absolute;
+  background: rgba(255, 255, 255, 1);
+  border-color: #00000026;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 35px;
+  filter: drop-shadow(9px 6px 24.4px rgba(0, 0, 0, 0.07));
+  height: 346px;
+  width: 821px;
+  left: 309px;
+  top: 709px;
+}
+
+/* rec 2 */
+.rec-2 {
+  position: absolute;
+  background: rgba(66, 77, 93, 0.04);
+  border-color: #d9d9d9ff;
+  border-style: solid;
+  border-width: 1px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  height: 85px;
+  width: 821px;
+  left: 309px;
+  top: 709px;
+}
+
+/* rec 3 */
+.rec-3 {
+  position: absolute;
+  border-color: #0000003d;
+  border-style: solid;
+  border-width: 0.88px;
+  border-radius: 35.3px;
+  height: 62.66px;
+  width: 231.23px;
+  left: 604px;
+  top: 955px;
+}
+
+/* Ellipse */
+.ellipse {
+  position: absolute;
+  background: rgba(1, 30, 58, 1);
+  height: 53.84px;
+  width: 53.84px;
+  border-radius: 50%;
+  left: 609.3px;
+  top: 960.3px;
+}
+
+/* Images */
+.image-1 {
+  position: absolute;
+  left: 76%;
+  top: 281%;
+}
+
+.image-2 {
+  position: absolute;
+  left: 97%;
+  top: 282%;
+}
+
+.vector-1,
+.vector-2,
+.vector-3,
+.vector-4 {
+  position: absolute;
+  top: 83%;
+}
+
+.vector-1 {
+  left: 482px;
+}
+
+.vector-2 {
+  left: 641px;
+}
+
+.vector-3 {
+  left: 800px;
+}
+
+.vector-4 {
+  left: 959px;
+}
+
+.image-3 {
+  position: absolute;
+  left: 48%;
+  top: 243%;
+}
+
+.image-4 {
+  position: absolute;
+  left: 67%;
+  top: 243%;
+}
+
+.image-5 {
+  position: absolute;
+  left: 86%;
+  top: 243%;
+}
+
+.image-6 {
+  position: absolute;
+  left: 105%;
+  top: 243%;
+}
+
+.image-7 {
+  position: absolute;
+  left: 124%;
+  top: 243%;
+}
+
+/* Text */
+.view-truck {
+  color: #000000ff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 133%;
+  letter-spacing: 6%;
+  text-align: left;
+  height: 13px;
+  width: 108px;
+  position: absolute;
+  left: 677px;
+  top: 979px;
+}
+
+.advantage {
+  color: #000000ff;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 133%;
+  letter-spacing: 6%;
+  text-align: left;
+  height: 10px;
+  width: 81px;
+  position: absolute;
+  top: 881px;
+}
+
+.advantage:nth-child(odd) {
+  left: 362px;
+}
+
+.advantage:nth-child(even) {
+  left: 521px;
+}
+
+.our-advantage {
+  color: #000000ff;
+  font-family: "FONTSPRING DEMO - The Seasons Light";
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 12%;
+  text-align: center;
+  height: 21px;
+  width: 659px;
+  position: absolute;
+  left: 50%;
+  top: 746px;
+  transform: translateX(-50%);
+}

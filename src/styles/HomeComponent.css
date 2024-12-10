@@ -1,0 +1,128 @@
+/* HomeComponent.css */
+
+/* Container for the entire home component */
+.home-container {
+  background: url("../assets/Homeimage.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  display: flex;
+  flex-direction: column; /* Ensure Navbar and generated container are stacked vertically */
+  align-items: center; /* Center the content horizontally */
+}
+.cont {
+  padding: 3%;
+}
+.paragraph {
+  font-size: 60px;
+  font-weight: bold;
+}
+.smallparagraph {
+  font-size: 28px;
+}
+/* Generated container (this will sit below the navbar) */
+.generated-container {
+  top: 12%;
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 200px;
+  box-sizing: border-box;
+}
+
+/* Rectangle 1 */
+.rectangle-1 {
+  padding: 2%;
+  display: flex;
+  background: rgba(255, 255, 255, 1);
+  border-color: #000000ff;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 14px;
+  filter: drop-shadow(8px 8px 0px rgba(0, 0, 0, 1));
+  height: 71px;
+  width: 100%; /* Make it responsive */
+  margin-bottom: 10px; /* Add spacing between elements */
+}
+
+/* Rectangle 2 */
+.rectangle-2 {
+  padding: 1%;
+  margin-top: 3%; /* Increase this value to add more space above */
+  background: rgba(1, 30, 58, 1);
+  border-radius: 10.847681045532227px;
+  height: 50px;
+  width: 200px;
+  margin: 1 auto; /* Center horizontally */
+  margin-top: 1px; /* Decrease the space above */
+  margin-bottom: 5px; /* Decrease the space below */
+}
+
+/* "What’s new" text */
+.what-new {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 8%;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 10px;
+}
+
+/* Generated image */
+.generated-image {
+  margin: 1 auto; /* Center horizontally */
+  margin-top: 10px; /* Decrease the space above */
+  margin-bottom: 5px;
+  /* max-width: 200px; */
+}
+
+/* Waitlist text */
+.waitlist-text {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 8%;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px; /* Add space from the image */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .generated-container {
+    width: 90%; /* Ensure the container fits on smaller screens */
+  }
+
+  .rectangle-1 {
+    width: 100%; /* Ensure the rectangle width is responsive */
+  }
+
+  .what-new {
+    align-items: center;
+    justify-self: center;
+    font-size: 14px; /* Adjust font size for small screens */
+  }
+
+  .waitlist-text {
+    font-size: 14px; /* Adjust font size for small screens */
+  }
+
+  .generated-image {
+    width: 30%; /* Adjust the image size for smaller screens */
+    max-width: 150px; /* Limit size further */
+  }
+}
+
+@media (max-width: 480px) {
+  .what-new {
+    font-size: 15px; /* Further reduce text size for very small screens */
+  }
+
+  .waitlist-text {
+    font-size: 12px; /* Further reduce text size for very small screens */
+  }
+}
